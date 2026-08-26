@@ -3,6 +3,10 @@ venv/
 .venv/
 env/
 
+# Data
+dataset
+raw_downloads
+
 # Python cache
 __pycache__/
 *.pyc
@@ -27,7 +31,8 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# junk
+# Junk
 function.txt
 test.py
 .vscode/
+
