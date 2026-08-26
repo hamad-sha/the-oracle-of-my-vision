@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor config
+.vscode/
+
+# Environment variables / secrets
+.env
+
+# Model checkpoints / large files
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# junk
+function.txt
+test.py
+.vscode/

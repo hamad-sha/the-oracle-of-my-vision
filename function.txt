@@ -1,5 +1,0 @@
-torchvision
-transformers
-pillow
-scikit-learn
-gradio
