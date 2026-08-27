@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
-input_directory = "C:/the-oracle-of-my-vision/raw_downloads"
-output_directory = "C:/the-oracle-of-my-vision/dataset"
+input_directory = "C:/the-oracle-of-my-vision/dataset-testing/sampled"
+output_directory = "C:/the-oracle-of-my-vision/dataset-testing/sampled_renamed"
 def organize_photos(input_directory, output_directory, prefix="ref"):
     input_path = Path(input_directory)
     output_path = Path(output_directory)
@@ -15,7 +15,7 @@ def organize_photos(input_directory, output_directory, prefix="ref"):
         print(f"No supported images found in {input_directory}.")
         return
     print(f"\n--- Found {len(images)} images. Processing... ---\n")
-    index = 1
+    index = 0
     for image_path in images:
         formatted_id_number = f"{index:03d}"
         clean_extension = image_path.suffix.lower()
