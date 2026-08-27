@@ -2,7 +2,6 @@ import csv
 import random
 import shutil
 from pathlib import Path
-
 SOURCE_DIR = Path("C:/the-oracle-of-my-vision/dataset-testing/images")   # full AVA pool
 STAGING_DIR = Path("C:/the-oracle-of-my-vision/dataset-testing/sampled")         # newly sampled, pre-rename
 TRACKING_CSV = Path("C:/the-oracle-of-my-vision/dataset-testing/extracted_log.csv")
@@ -49,5 +48,5 @@ def sample_new_images(sample_size, seed=42):
     log_extracted_filenames([p.name for p in chosen])
     print(f"Sampled {sample_size} new images into {STAGING_DIR}")
 
-sample_new_images(sample_size=200)
-#Generated with Claude Sonnet 5, tested and implemented.
+sample_new_images(sample_size=10)
+#Generated with Claude Sonnet 5, tested and implemented.  

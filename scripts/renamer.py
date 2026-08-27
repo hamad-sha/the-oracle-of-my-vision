@@ -2,6 +2,11 @@ from pathlib import Path
 import shutil
 input_directory = "C:/the-oracle-of-my-vision/dataset-testing/sampled"
 output_directory = "C:/the-oracle-of-my-vision/dataset-testing/sampled_renamed"
+answer = input("WARNING: MAKE SURE YOUR IMAGE INDEX HAS BEEN SET ACCORDING ESP IF MERGING IMAGES, TYPE YES OR NO")
+if answer == "yes":
+    pass
+else:
+    print("PRESS CONTROL Z TO AVOID DATA TERMINATION")
 def organize_photos(input_directory, output_directory, prefix="ref"):
     input_path = Path(input_directory)
     output_path = Path(output_directory)
