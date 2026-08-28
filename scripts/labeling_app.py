@@ -6,6 +6,8 @@ where you pick which of two images you prefer. Every decision is
 logged to comparisons.jsonl automatically. Close the browser tab /
 stop the script any time — your progress is saved after every click,
 nothing is lost, and running it again later picks up where you left off.
+
+Generated with Claude Sonnet 5, reviewed and implemented.
 """
 
 import json
@@ -15,8 +17,8 @@ from pathlib import Path
 import gradio as gr
 
 # ---- CONFIG: adjust these paths if your folders differ ----
-DATASET_DIR = Path("C:/the-oracle-of-my-vision/dataset-testing/sampled_renamed")
-LOG_PATH = Path("C:/the-oracle-of-my-vision/dataset-testing/results/comparisons.jsonl")
+DATASET_DIR = Path("C:/the-oracle-of-my-vision/pipeline/sampled_renamed")
+LOG_PATH = Path("C:/the-oracle-of-my-vision/pipeline/results/comparisons.jsonl")
 
 
 # ---------------- Backend logic (your existing functions) ----------------

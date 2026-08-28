@@ -4,8 +4,7 @@ venv/
 env/
 
 # Data
-dataset
-raw_downloads
+pipeline
 
 # Python cache
 __pycache__/
@@ -35,4 +34,4 @@ Thumbs.db
 function.txt
 test.py
 .vscode/
-dataset-testing
+

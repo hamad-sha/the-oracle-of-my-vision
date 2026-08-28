@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
-input_directory = "C:/the-oracle-of-my-vision/dataset-testing/sampled"
-output_directory = "C:/the-oracle-of-my-vision/dataset-testing/sampled_renamed"
+input_directory = "C:/the-oracle-of-my-vision/pipepline/sampled"
+output_directory = "C:/the-oracle-of-my-vision/pipeline/sampled_renamed"
 answer = input("WARNING: MAKE SURE YOUR IMAGE INDEX HAS BEEN SET ACCORDING ESP IF MERGING IMAGES, TYPE YES OR NO")
 if answer == "yes":
     pass

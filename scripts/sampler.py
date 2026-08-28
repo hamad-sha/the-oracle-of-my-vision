@@ -2,9 +2,9 @@ import csv
 import random
 import shutil
 from pathlib import Path
-SOURCE_DIR = Path("C:/the-oracle-of-my-vision/dataset-testing/images")   # full AVA pool
-STAGING_DIR = Path("C:/the-oracle-of-my-vision/dataset-testing/sampled")         # newly sampled, pre-rename
-TRACKING_CSV = Path("C:/the-oracle-of-my-vision/dataset-testing/extracted_log.csv")
+SOURCE_DIR = Path("C:/the-oracle-of-my-vision/pipeline/source_images")   # full AVA pool
+STAGING_DIR = Path("C:/the-oracle-of-my-vision/pipeline/sampled")         # newly sampled, pre-rename
+TRACKING_CSV = Path("C:/the-oracle-of-my-vision/dpipeline/extracted_log.csv")
 
 def load_extracted_filenames():
     """Reads the CSV and returns a set of source filenames already extracted before."""
