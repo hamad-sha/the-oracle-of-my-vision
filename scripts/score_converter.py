@@ -61,7 +61,7 @@ def compute_scores():
 
     comparisons, image_to_idx = build_choix_comparisons(all_images, log_entries)
 
-    scores = choix.ilsr_pairwise(len(all_images), comparisons)
+    scores = choix.ilsr_pairwise(len(all_images), comparisons, alpha=0.01)
     # scores[i] is now a numeric preference strength for image i
 
     idx_to_image = {i: name for name, i in image_to_idx.items()}

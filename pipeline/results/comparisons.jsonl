@@ -979,7 +979,7 @@
 {"image_a": "ref_099.jpg", "image_b": "ref_033.jpg", "winner": "ref_033.jpg", "review": ""}
 {"image_a": "ref_124.jpg", "image_b": "ref_166.jpg", "winner": "ref_124.jpg", "review": ""}
 {"image_a": "ref_044.jpg", "image_b": "ref_002.jpg", "winner": "ref_044.jpg", "review": ""}
-{"image_a": "ref_140.jpg", "image_b": "ref_065.jpg", "winner": "ref_65.jpg", "review": ""}
+{"image_a": "ref_140.jpg", "image_b": "ref_065.jpg", "winner": "ref_065.jpg", "review": ""}
 {"image_a": "ref_033.jpg", "image_b": "ref_013.jpg", "winner": "ref_033.jpg", "review": ""}
 {"image_a": "ref_135.jpg", "image_b": "ref_189.jpg", "winner": "ref_189.jpg", "review": ""}
 {"image_a": "ref_020.jpg", "image_b": "ref_030.jpg", "winner": "ref_030.jpg", "review": ""}
@@ -1209,7 +1209,7 @@
 {"image_a": "ref_186.jpg", "image_b": "ref_172.jpg", "winner": "ref_186.jpg", "review": ""}
 {"image_a": "ref_169.jpg", "image_b": "ref_172.jpg", "winner": "ref_169.jpg", "review": ""}
 {"image_a": "ref_050.jpg", "image_b": "ref_196.jpg", "winner": "ref_050.jpg", "review": ""}
-{"image_a": "ref_030.jpg", "image_b": "ref_196.jpg", "winner": "ref_0196.jpg", "review": ""}
+{"image_a": "ref_030.jpg", "image_b": "ref_196.jpg", "winner": "ref_196.jpg", "review": ""}
 {"image_a": "ref_022.jpg", "image_b": "ref_037.jpg", "winner": "ref_022.jpg", "review": ""}
 {"image_a": "ref_102.jpg", "image_b": "ref_077.jpg", "winner": "ref_102.jpg", "review": ""}
 {"image_a": "ref_169.jpg", "image_b": "ref_067.jpg", "winner": "ref_067.jpg", "review": ""}
@@ -1248,3 +1248,16 @@
 {"image_a": "ref_009.jpg", "image_b": "ref_145.jpg", "winner": "ref_145.jpg", "review": ""}
 {"image_a": "ref_012.jpg", "image_b": "ref_106.jpg", "winner": "ref_106.jpg", "review": ""}
 {"image_a": "ref_150.jpg", "image_b": "ref_111.jpg", "winner": "ref_111.jpg", "review": ""}
+{"image_a": "ref_047.jpg", "image_b": "ref_071.jpg", "winner": "ref_047.jpg", "review": ""}
+{"image_a": "ref_182.jpg", "image_b": "ref_071.jpg", "winner": "ref_182.jpg", "review": ""}
+{"image_a": "ref_009.jpg", "image_b": "ref_071.jpg", "winner": "ref_009.jpg", "review": ""}
+{"image_a": "ref_156.jpg", "image_b": "ref_071.jpg", "winner": "ref_071.jpg", "review": ""}
+{"image_a": "ref_093.jpg", "image_b": "ref_071.jpg", "winner": "ref_093.jpg", "review": ""}
+{"image_a": "ref_128.jpg", "image_b": "ref_042.jpg", "winner": "ref_042.jpg", "review": ""}
+{"image_a": "ref_061.jpg", "image_b": "ref_042.jpg", "winner": "ref_061.jpg", "review": ""}
+{"image_a": "ref_174.jpg", "image_b": "ref_042.jpg", "winner": "ref_174.jpg", "review": ""}
+{"image_a": "ref_038.jpg", "image_b": "ref_042.jpg", "winner": "ref_038.jpg", "review": ""}
+{"image_a": "ref_112.jpg", "image_b": "ref_133.jpg", "winner": "ref_112.jpg", "review": ""}
+{"image_a": "ref_057.jpg", "image_b": "ref_133.jpg", "winner": "ref_057.jpg", "review": ""}
+{"image_a": "ref_168.jpg", "image_b": "ref_195.jpg", "winner": "ref_195.jpg", "review": ""}
+{"image_a": "ref_029.jpg", "image_b": "ref_165.jpg", "winner": "ref_165.jpg", "review": ""}
