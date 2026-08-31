@@ -4,7 +4,7 @@ import shutil
 from pathlib import Path
 SOURCE_DIR = Path("C:/the-oracle-of-my-vision/pipeline/source_images")   # full AVA pool
 STAGING_DIR = Path("C:/the-oracle-of-my-vision/pipeline/sampled")         # newly sampled, pre-rename
-TRACKING_CSV = Path("C:/the-oracle-of-my-vision/dpipeline/extracted_log.csv")
+TRACKING_CSV = Path("C:/the-oracle-of-my-vision/pipeline/extracted_log.csv")
 
 def load_extracted_filenames():
     """Reads the CSV and returns a set of source filenames already extracted before."""
@@ -48,5 +48,5 @@ def sample_new_images(sample_size, seed=42):
     log_extracted_filenames([p.name for p in chosen])
     print(f"Sampled {sample_size} new images into {STAGING_DIR}")
 
-sample_new_images(sample_size=10)
+sample_new_images(sample_size=200)
 #Generated with Claude Sonnet 5, tested and implemented.  

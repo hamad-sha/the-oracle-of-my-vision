@@ -4,7 +4,10 @@ venv/
 env/
 
 # Data
-pipeline
+pipeline/*
+!pipeline/results/
+!pipeline/results/comparisons.jsonl
+!pipeline/results/scores.json
 
 # Python cache
 __pycache__/
